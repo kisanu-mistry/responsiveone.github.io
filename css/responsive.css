@@ -1,0 +1,378 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+.wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+
+#img{
+	max-width:100%;
+	height:auto;
+}
+
+.selectnav{
+	display:none;
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.wrap{
+	width:95%;
+}
+
+#social_icon{
+	display:none;
+}
+
+#jump_top a{
+	display:none;
+}
+
+#article {
+    width: 66%;
+    margin-right: 2%;
+}
+
+#sidebar_wrapper {
+    width: 32%;
+}
+
+#article {
+    width:100%;
+}
+
+#inside_content_wrapper{
+	padding:0%;
+}
+#inside_article figure img {
+    width: 100%;
+    height: auto;
+}
+
+#inside_article figure {
+    width: 100%;
+    padding:0%;
+}
+
+#inside_article blockquote {
+    width: 100%;
+    padding:0%;
+    padding-left:0%;
+    padding-left:0%;
+    margin-left:0%;
+}
+
+#inside_article{
+	width:100%;
+}
+
+.selectnav{
+	display:block;
+	width: 100%;
+	height: 3.5em;
+}
+
+#mainmenu{
+	display:none;
+}
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+*/
+
+@media only screen and (max-width: 767px) {
+
+.wrap{
+	width:95%;
+}
+
+#social_icon{
+	display:none;
+}
+
+#jump_top a{
+	display:none;
+}
+
+#article {
+    width:100%;
+}
+
+#inside_content_wrapper{
+	padding:0%;
+}
+#inside_article figure img {
+    width: 100%;
+    height: auto;
+}
+
+#inside_article figure {
+    width: 100%;
+    padding:0%;
+}
+
+#inside_article blockquote {
+    width: 100%;
+    padding:0%;
+    padding-left:0%;
+    padding-left:0%;
+    margin-left:0%;
+}
+
+#inside_article{
+	width:100%;
+}
+
+#article h2{
+    text-align:center;
+}
+
+#inside_article h2{
+	 text-align:center;
+}
+
+#sidebar_wrapper {
+    width:100%;
+}
+#sidebar {
+    width: 100%;
+    margin-left:0%;
+}
+
+#imgp_wrap img{
+	width:100%;
+	height:auto;
+}
+
+#imgp_wrap img P{
+	text-align:center;
+}
+
+#header{
+	text-align:center;
+}
+
+.selectnav{
+	display:block;
+	width: 100%;
+	height: 3.5em;
+}
+
+#mainmenu{
+	display:none;
+}
+
+#section{
+	display:none;
+}
+
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.wrap{
+	width:95%;
+}
+
+#social_icon{
+	display:none;
+}
+
+#jump_top a{
+	display:none;
+}
+
+#article {
+    width:100%;
+}
+
+#inside_content_wrapper{
+	padding:0%;
+}
+#inside_article figure img {
+    width: 100%;
+    height: auto;
+}
+
+#inside_article figure {
+    width: 100%;
+    padding:0%;
+}
+
+#inside_article blockquote {
+    width: 100%;
+    padding:0%;
+    padding-left:0%;
+    padding-left:0%;
+    margin-left:0%;
+}
+
+#inside_article{
+	width:100%;
+}
+
+#article h2{
+    text-align:center;
+}
+
+#inside_article h2{
+	 text-align:center;
+}
+
+#sidebar_wrapper {
+    width:100%;
+}
+#sidebar {
+    width: 100%;
+    margin-left:0%;
+}
+
+#imgp_wrap img{
+	width:100%;
+	height:auto;
+}
+
+#imgp_wrap img P{
+	text-align:center;
+}
+
+#header{
+	text-align:center;
+}
+
+.selectnav{
+	display:block;
+	width: 100%;
+	height: 3.5em;
+}
+
+#mainmenu{
+	display:none;
+}
+
+#section{
+	display:none;
+}
+
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+.wrap{
+	width:95%;
+}
+
+#social_icon{
+	display:none;
+}
+
+#jump_top a{
+	display:none;
+}
+
+#article {
+    width:100%;
+}
+
+#inside_content_wrapper{
+	padding:0%;
+}
+#inside_article figure img {
+    width: 100%;
+    height: auto;
+}
+
+#inside_article figure {
+    width: 100%;
+    padding:0%;
+}
+
+#inside_article blockquote {
+    width: 100%;
+    padding:0%;
+    padding-left:0%;
+    padding-left:0%;
+    margin-left:0%;
+}
+
+#inside_article{
+	width:100%;
+}
+
+#article h2{
+    text-align:center;
+}
+
+#inside_article h2{
+	 text-align:center;
+}
+
+#sidebar_wrapper {
+    width:100%;
+}
+#sidebar {
+    width: 100%;
+    margin-left:0%;
+}
+
+#imgp_wrap img{
+	width:100%;
+	height:auto;
+}
+
+#imgp_wrap img P{
+	text-align:center;
+}
+
+#header{
+	text-align:center;
+}
+
+.selectnav{
+	display:block;
+	width: 100%;
+	height: 3.5em;
+}
+
+#mainmenu{
+	display:none;
+}
+
+#section{
+	display:none;
+}
+
+}
